@@ -5,6 +5,10 @@ then opens a pull request against their own fork's main branch.
 Review the change with a partner before merging it.
 """
 
+def greetings():
+    # --- ADD YOUR GREETING BELOW THIS LINE ---
+    print("Hello from tommydavies-byte")  #this is a greeting from me (tommydavies-byte)
+    print("Hello from Milan!") #this is a greeting to milan
 
 def banner():
     print("=== SCCM4910 team greetings ===")
@@ -12,7 +16,6 @@ def banner():
 
 if __name__ == "__main__":
     banner()
-    # --- ADD YOUR GREETING BELOW THIS LINE ---
-    print("Hello from tommydavies-byte")  #this is a greeting from me
-                                          #this is a test comment
+    #greet everyone
+    greetings()
 
